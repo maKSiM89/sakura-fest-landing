@@ -4,5 +4,7 @@
 .fw-400 { font-weight: 400; }
 
 .fs-1-5 { font-size: 1.5rem; }
+.fs-1-3 { font-size: 1.3rem; }
 
 .fc-fuchsia { color: var(--fuchsia); }
+.fc-fuchsia-dark { color: var(--fuchsia-dark); }

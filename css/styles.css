@@ -355,8 +355,8 @@ button { cursor: pointer; }
   background: #ffffff;
   border: 1px solid rgba(210, 32, 110, 0.08);
   border-radius: 20px;
-  min-height: 130px;
-  padding: 20px;
+  min-height: 120px;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
