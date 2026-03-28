@@ -1,0 +1,8 @@
+.fw-900 { font-weight: 900; }
+.fw-800 { font-weight: 800; }
+.fw-700 { font-weight: 600; }
+.fw-400 { font-weight: 400; }
+
+.fs-1-5 { font-size: 1.5rem; }
+
+.fc-fuchsia { color: var(--fuchsia); }
