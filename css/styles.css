@@ -258,6 +258,20 @@ button { cursor: pointer; }
   grid-template-columns: repeat(3, 1fr);
 }
 .day-block {
+  background: rgba(255,255,255,0.7);
+  border: 1px solid rgba(26, 26, 26, 0.08);
+  border-radius: var(--radius-sm);
+  padding: 1rem;
+}
+
+.copyright-note {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: .9rem;
+  color: #777;
+}
+
+.day-block {
   background: rgba(255,255,255,0.82);
   border: 1px solid rgba(26,26,26,.07);
   border-radius: var(--radius);
