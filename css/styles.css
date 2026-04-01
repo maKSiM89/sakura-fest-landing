@@ -262,6 +262,21 @@ button { cursor: pointer; }
   border: 1px solid rgba(26, 26, 26, 0.08);
   border-radius: var(--radius-sm);
   padding: 1rem;
+  position: relative;
+}
+
+.day-block h3 {
+  margin: 0 0 1rem;
+  position: relative;
+}
+
+.day-block h3::after {
+  content: "📅";
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 1.2rem;
+  opacity: 0.7;
 }
 
 .copyright-note {
@@ -481,14 +496,6 @@ button { cursor: pointer; }
   flex-direction: column;
   justify-content: center;
   padding: 3px 0;
-}
-
-.program-list li::before {
-  content: "⏰";
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-size: 16px;
 }
 
 
